@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Workbench&display=swap');
+;
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #735290;
+    text-align: center;
+
+}
+
+nav {
+    background-color: #ffffc7;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Workbench', sans-serif;
+    color: #735290;
+}
+
+.winmgs {
+    align-items: center;
+    margin-top: 30px;
+    height: 90vh;
+    min-width: 90vw;
+    margin: auto;
+
+}
+
+.mgs {
+
+    height: 60vmin;
+    color: rgb(18, 194, 234);
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#new-btn {
+    font-size: 25px;
+    color: #cfcfcf;
+    background-color: #0a0406;
+    width:10rem;
+    height:3rem ;
+    border-radius: 10px;
+    border: none;
+}
+
+#new-btn:hover {
+    opacity: 0.7;
+}
+
+.container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    height: 70vh;
+
+}
+
+.gamecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60vmin;
+    height: 60vh;
+    gap: 1rem;
+
+}
+
+.box {
+    width: 18vmin;
+    height: 18vmin;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+    background-color:#ffffc7;
+    color: rgb(232, 91, 56);
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#reset-btn {
+    font-size: 25px;
+    color: #cfcfcf;
+    background-color: #0a0406;
+    width:10rem;
+    height:3rem ;
+    border-radius: 10px;
+    border: none;
+}
+
+#reset-btn:hover {
+    opacity: 0.7;
+}
+.hide{
+    display: none;
+}
